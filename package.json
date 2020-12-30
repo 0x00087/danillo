@@ -1,0 +1,18 @@
+{
+	"name": "webresource",
+	"version": "1.0.0",
+	"description": "Laboratornaya rabota DWR",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"author": "Dada <beascoreai43@gmail.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+	},
+	"dependencies": {
+		"mysql2": "^2.2.5"
+	}
+}

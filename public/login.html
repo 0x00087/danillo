@@ -1,0 +1,113 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Burger</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/request.js"></script>
+
+</head>
+
+<body>
+
+   <header>
+    <div class="header-area ">
+        <div id="sticky-header" class="main-header-area">
+        
+            <div class="container-fluid p-0">
+                <div class="row align-items-center no-gutters">
+                    <div class="col-xl-5 col-lg-5">
+                        <div class="main-menu  d-none d-lg-block">
+                            <nav> 
+                                
+                                <ul id="navigation">
+                                    <li><a href="index.html">Меню</a></li>
+                                    <li><a href="#">Личный кабинет<i class="ti-angle-down"></i></a>
+                                        <ul class="submenu">
+                                            <li><a href="basket.html">Корзина</a></li>
+                                            <li><a href="history.html">История</a></li>
+                                        </ul>
+                                    </li>
+                                    <script type="text/javascript">
+                                        user();
+                                    </script>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2">
+                        <div class="logo-img">
+                            <a href="index.html">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                       
+                   
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="bradcam_area breadcam_bg overlay">
+    <h3>Login</h3>
+</div>
+
+<div class="background-login" id="login-form">
+    <div id="login-box">
+        <input  id="mail" class="input-data" placeholder="Login" name="login" maxlength="12" required>
+
+        <input  id="password"  class="input-data"maxlength="12" type="password" placeholder="Password" name="password" required>
+
+        <button id="button-login" type="submit" onclick=RequestLogin()>Login</button>
+        <div><a class="btn" href="register.html">Register</a></div>
+    </div>
+</div>
+
+  
+
+
+    <footer class="footer">
+        <div class=" col-xl-12 col-md-12 col-lg-12">
+            <div class=" text-center ">
+                <h3 class="footer_title pos_margin"> Киров</h3>
+                <p>"Адрес" <br> 
+                <a href="#">info@burger.com</a></p>
+                <a class="number" href="#">"Номер телефона"</a>
+
+            </div>
+        </div>
+    </footer>
+
+
+   
+</body>
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/slicknav.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles_login.css">
+
+
+
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/basket.js"></script>
+<script src="js/main.js"></script>
+
+
+</html>
